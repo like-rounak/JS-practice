@@ -58,5 +58,6 @@ let x;
 console.log(x); // Default value is undefined
 console.log(typeof(x)); // undefined
 
+// 
 
 
