@@ -28,5 +28,35 @@ const c = a-b;
 console.log (c);
 console.log (typeof c);
 
+console.log (c/singleQuote); //NaN Not a Number 
+
 //Booleans  - True (1) or False (0)
+const isCool =true ;
+console.log(isCool);
+
+if (isCool==true) {
+    console.log("Hello you're Cool")
+}
+else {
+    console.log("Oh Nice , Bye .... ")
+}
+
+const check= 5;
+console.log(check<=10); // True ==
+
+//Null
+let age = null;
+console.log(age); // null
+console.log(typeof(age)); // object !!!! 
+
+age = 20;
+console.log(age); // 20 
+
+//Undefined 
+
+let x;
+console.log(x); // Default value is undefined
+console.log(typeof(x)); // undefined
+
+
 
