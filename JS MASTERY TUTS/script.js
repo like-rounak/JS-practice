@@ -1,15 +1,48 @@
-// Logical Operators
+//Functions
 
-// AND &&
-console.log(true && false); //false
-console.log(true && true); //true
-console.log(false && false); //false
+//console.log() => built in func.
 
-//OR || 
-console.log(true && false); //true
-console.log(true && true); //true
-console.log(false && false); //false
+//Function Declaration
 
-//NOT !
-console.log(!true); //false
-console.log(!false); //true
+// 1.
+// function name(params) {
+//    statements
+//      have access to "this" keyword
+// }
+
+// 2.
+// const name = function name(params) {
+//     statements
+// }
+
+// 3. Arrow function - popular
+// const name = (params) =>{
+//     statements
+// }
+
+
+function SQUARE(number) {
+    console.log('Working ...');
+    return number * number ;
+}
+
+//Function Call
+//Invoking the function 
+
+
+//SQUARE();
+const result = SQUARE(5);
+console.log(result);
+
+
+//application 
+
+function sayHi(name){
+    console.log(`Hi , ${name}`);
+    if (name=='Joe') {
+        console.log('Joe Mama');
+    }
+}
+
+sayHi('Joe');
+sayHi('Mohan');
