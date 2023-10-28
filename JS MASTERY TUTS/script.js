@@ -37,6 +37,8 @@ console.log(result);
 
 //application 
 
+//Say HI
+
 function sayHi(name){
     console.log(`Hi , ${name}`);
     if (name=='Joe') {
@@ -46,3 +48,29 @@ function sayHi(name){
 
 sayHi('Joe');
 sayHi('Mohan');
+
+
+//Add
+
+function add(a,b){
+    return a+b;
+}//only first return possible
+
+const sum = add (2,2);
+
+console.log(sum);
+
+//Arrow Function 
+const sq = (number) =>{
+    return number * number;
+}
+
+// function sq(number) {
+//     return number*number;
+// }
+
+const sq1 = (number)=> number*number;
+
+const res = sq(10);
+
+console.log(res); 
